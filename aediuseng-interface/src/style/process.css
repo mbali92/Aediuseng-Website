@@ -1,0 +1,52 @@
+.work-pro-section{
+    padding: 2rem 0 3rem 0; 
+  }
+  .work-pro-item{
+      margin-bottom: 2rem;
+  }
+  .number{
+    position: absolute;
+    top: -15px;
+    left: 45px;
+    font-size: 16px;
+    color: #999;
+  }
+  .work-pro-item .work-process-icon{
+      font-size:40px;
+      font-weight:600;
+      width:50px;
+      height:50px;
+      line-height:50px;
+      color: rgb(20, 50, 93);
+      display:inline-block;
+      border-radius:50%;
+      margin-bottom:20px;
+      position:relative;
+      z-index:1;
+  }
+  .work-pro-item .number-line{
+      background-color: #eee;
+      position:absolute;
+      content:"";
+      width:80%;
+      height:1px;
+      top:25px;
+      left:60px;
+      z-index:-1
+  }
+  .work-pro-item .number-line{
+      display: none;
+  }
+  .work-pro-item h3{
+      font-size:16px;
+      color: #fa8b1c;
+  }
+  .work-pro-item p{
+      color:#666;
+      font-size: 12px;
+  }
+  @media(min-width:1200px){
+      .work-pro-item .number-line{
+        display: block;
+      }
+  }

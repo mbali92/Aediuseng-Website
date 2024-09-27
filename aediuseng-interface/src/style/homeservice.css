@@ -1,0 +1,81 @@
+.service-section{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    font-family: "Poppins", sans-serif;
+  }
+  .service-section .body-subtitle{
+    text-transform: uppercase;
+    color: rgb(20, 50, 93);
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+  }
+  #service-title{
+    margin-bottom: 3rem;
+    color: #000;
+    text-align: center;
+    font-size: 22px;
+  }
+  .service-section .col-lg-4{padding: 0 8px;margin-bottom: 1rem;}
+  
+  .service-card{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #eee;
+  }
+  .service-text-one,.service-text-two, .service-text-three{
+    width: 85%;
+  }
+  .svr-big-icon{
+    position:absolute;
+    font-size: 95px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    z-index: -1;
+    color:#fef2e6;
+  }
+  .service-icon{
+    font-size: 55px;
+    color:#f7830f;
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 10px;
+  }
+  .service-card h6{
+    color: #111;
+    font-size: 17px;
+    margin-top: 25px;
+    text-transform: capitalize;
+  }
+  .service-card p{
+    font-size: 12.5px;
+    color: #999;
+    line-height: 25px;
+    font-family: Roboto-regular;
+  }
+  .service-btn{
+    color: rgb(10, 54, 114);
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+@media(min-width:325px){
+#service-title{font-size: 27px;}
+}
+@media (min-width:992px) {
+  .service-section .col-lg-4{padding: 0;}
+  .service-section .row .col-lg-4:nth-child(2) .service-card{
+    border-left: none;
+    border-right: none;
+  }
+}
+@media(min-width:1200px){
+    .service-section .page_row{
+        width: 75%;
+        margin: 0 auto;
+    }
+}

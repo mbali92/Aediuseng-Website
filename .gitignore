@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.*
+
+# MySQL database dumps and other sensitive data
+*.sql
+*.db
+
+# Build files
+build/
+
+# macOS Finder files
+.DS_Store
+
+# Ignore frontend build files
+frontend/build/
+
+# Ignore IntelliJ project files
+.idea/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore environment variable files
+.env
+
